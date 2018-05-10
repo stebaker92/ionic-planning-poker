@@ -7,10 +7,10 @@ import { ModalPage } from './modal';
   templateUrl: 'home.html'
 })
 export class HomePage {
-  items: number[];
+  items: any[];
 
   constructor(public navCtrl: NavController, public modalCtrl: ModalController) {
-    this.items = [0, 0.5, 1, 2, 3, 5, 8, 13, 21];
+    this.items = ["?", 0, 0.5, 1, 2, 3, 5, 8, 13, 21];
   }
 
   itemSelected(item) {

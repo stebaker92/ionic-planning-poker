@@ -6,7 +6,7 @@ import { NavController, ModalController, NavParams, ViewController } from 'ionic
 })
 export class ModalPage {
 
-  value: number;
+  value: any;
 
   constructor(public navCtrl: NavController, public params: NavParams, public modalCtrl: ModalController, public viewCtrl: ViewController) {
     this.value = this.params.get("number")
