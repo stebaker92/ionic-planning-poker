@@ -1,11 +1,10 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Planning Poker!</ion-title>
+    <ion-title>Choose a number</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <h2>Choose a number</h2>
   <ion-list>
     <button ion-item *ngFor="let item of items" (click)="itemSelected(item)">
       {{ item }}
