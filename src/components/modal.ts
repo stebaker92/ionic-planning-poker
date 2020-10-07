@@ -9,7 +9,7 @@ export class Modal {
   value: any;
 
   constructor(public navCtrl: NavController, public params: NavParams, public modalCtrl: ModalController, public viewCtrl: ViewController) {
-    this.value = this.params.get("number")
+    this.value = this.params.get("value")
   }
 
   dismiss() {
