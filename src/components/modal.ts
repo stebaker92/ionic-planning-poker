@@ -4,7 +4,7 @@ import { NavController, ModalController, NavParams, ViewController } from 'ionic
 @Component({
   templateUrl: 'modal.html'
 })
-export class ModalPage {
+export class Modal {
 
   value: any;
 

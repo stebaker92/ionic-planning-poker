@@ -9,14 +9,14 @@ import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-import { ModalPage } from '../pages/home/modal';
+import { Modal } from '../components/modal';
 
 @NgModule({
   declarations: [
     MyApp,
     AboutPage,
     HomePage,
-    ModalPage,
+    Modal,
     TabsPage
   ],
   imports: [
@@ -28,7 +28,7 @@ import { ModalPage } from '../pages/home/modal';
     MyApp,
     AboutPage,
     HomePage,
-    ModalPage,
+    Modal,
     TabsPage
   ],
   providers: [

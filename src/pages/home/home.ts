@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, ModalController } from 'ionic-angular';
-import { ModalPage } from './modal';
+import { Modal } from '../../components/modal';
 
 @Component({
   selector: 'page-home',
@@ -15,6 +15,6 @@ export class HomePage {
 
   itemSelected(item) {
     console.log("click")
-    this.modalCtrl.create(ModalPage, { number: item }).present()
+    this.modalCtrl.create(Modal, { number: item }).present()
   }
 }
