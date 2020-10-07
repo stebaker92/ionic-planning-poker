@@ -48,5 +48,5 @@ Sign and verify the APK:
 - Promote the release to Production once you're happy with the new version 
 
 ## Resources 
-- [ionicons](https://ionicons.com/)
+- [ionicons](https://ionicframework.com/docs/v3/ionicons/)
 - [Ionic v3 docs](https://ionicframework.com/docs/v3/)
