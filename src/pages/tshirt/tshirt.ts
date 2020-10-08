@@ -14,6 +14,6 @@ export class TshirtPage {
   }
 
   itemSelected(item: string) {
-    this.modalCtrl.create(Modal, { value: item }).present()
+    this.modalCtrl.create(Modal, { value: item, color: '#eeffef' }).present()
   }
 }

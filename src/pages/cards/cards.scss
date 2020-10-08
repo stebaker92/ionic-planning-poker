@@ -2,18 +2,8 @@ page-cards {
     text-align: center;
 }
 
-.input-wrapper {
+page-cards .input-wrapper {
     text-align: center;
     font-size: 24px;
     padding: 1px;
-}
-
-.card {
-    border-radius: 55px;
-    border: 1px solid #00bcff;
-    background: #eefcff;
-    font-size: 14em;
-    height: calc(100% - 20px);
-    display: flex;
-    align-items: center;
 }
