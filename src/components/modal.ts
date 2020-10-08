@@ -7,9 +7,11 @@ import { NavController, ModalController, NavParams, ViewController } from 'ionic
 export class Modal {
 
   value: any;
+  cardClass: string;
 
   constructor(public navCtrl: NavController, public params: NavParams, public modalCtrl: ModalController, public viewCtrl: ViewController) {
-    this.value = this.params.get("number")
+    this.value = this.params.get("value")
+    this.cardClass = this.params.get("cardClass")
   }
 
   dismiss() {

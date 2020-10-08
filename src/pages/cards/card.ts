@@ -3,10 +3,10 @@ import { NavController, ModalController } from 'ionic-angular';
 import { Modal } from '../../components/modal';
 
 @Component({
-  selector: 'page-home',
-  templateUrl: 'home.html'
+  selector: 'page-cards',
+  templateUrl: 'cards.html'
 })
-export class HomePage {
+export class CardsPage {
   items: any[];
 
   constructor(public navCtrl: NavController, public modalCtrl: ModalController) {
@@ -14,7 +14,6 @@ export class HomePage {
   }
 
   itemSelected(item) {
-    console.log("click")
-    this.modalCtrl.create(Modal, { number: item }).present()
+    this.modalCtrl.create(Modal, { value: item, cardClass: 'poker-card--number' }).present()
   }
 }

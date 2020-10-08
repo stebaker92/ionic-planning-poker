@@ -1,0 +1,18 @@
+.poker-card {
+    margin: 2rem;
+    border-radius: 55px;
+    font-size: 14em;
+    height: calc(100% - 4rem);
+    display: flex;
+    align-items: center;
+}
+
+.poker-card--number {
+    background: #eefcff;
+    border: 2px solid #00bcff;
+}
+
+.poker-card--tshirt {
+    background: #eeffef;
+    border: 2px solid #11bd32;
+}
