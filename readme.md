@@ -17,9 +17,8 @@ Install ionic and cordova:
 `npm run ionic:serve`
 
 ## Running locally (via emulator)
-This assumes you have previously installed ionic / an Android Virtual Device:
-
-`ionic cordova emulate android`
+This assumes you have previously installed the ionic CLI and an Android Virtual Device:
+`ionic cordova run android`
 
 
 ## Target newer versions of Android SDK
