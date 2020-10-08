@@ -13,8 +13,8 @@
 </ion-header> -->
 
 <ion-content (click)="dismiss()">
-    <ion-card [style.backgroundColor]="cardColor">
-        <div class="poker-card" style="margin: 0 auto;" >{{value}}</div>
-    </ion-card>
+    <div class="poker-card" [ngClass]="cardClass">
+        <div style="margin: 0 auto;">{{value}}</div>
+    </div>
 
 </ion-content>

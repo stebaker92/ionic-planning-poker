@@ -14,6 +14,6 @@ export class CardsPage {
   }
 
   itemSelected(item) {
-    this.modalCtrl.create(Modal, { value: item, color: '#eefcff' }).present()
+    this.modalCtrl.create(Modal, { value: item, cardClass: 'poker-card--number' }).present()
   }
 }
