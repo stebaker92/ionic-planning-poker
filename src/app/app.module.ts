@@ -11,6 +11,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { Modal } from '../components/modal';
 import { TshirtPage } from '../pages/tshirt/tshirt';
+import { Insomnia } from '@ionic-native/insomnia/ngx';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { TshirtPage } from '../pages/tshirt/tshirt';
   providers: [
     StatusBar,
     SplashScreen,
+    Insomnia,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
